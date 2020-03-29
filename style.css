@@ -1,0 +1,45 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #A52A2A;
+}
+
+#risultato {
+  display:none;
+  border: solid 2px;
+  border-radius: 5px;
+  width: 33%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  position: relative;
+  left: 33%;
+  background: white;
+  font-weight: bold;
+}
+ #calcolatore {
+   margin-top: 30px;
+   text-align: center;
+   color: white;
+}
+div {
+  padding: 20px;
+}
+
+h4 {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.stile :hover {
+opacity: 0.8;
+cursor: pointer;
+}
+
+#risultato h2 {
+  text-align: center;
+}

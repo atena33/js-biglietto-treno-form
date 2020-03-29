@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+  </head>
+  <body>
+    <main>
+      <!-- Qui inizia la sezione degli input -->
+      <section id="calcolatore">
+        <h2>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
+        <form id="dati">
+          <h4>Nome e cognome</h4>
+          <input id="name" type="text" name="Nome" value="">
+          <h4>Chilometri da percorrere</h4>
+          <input id="percorso"type="text" name="Chilometri" value="">
+          <h4> Età</h4>
+          <input id="anni"type="text" name="Età" value="">
+          <div class="stile">
+            <button id="genera"type="button" name="button">Genera</button>
+            <button id="annulla" type="button" onclick="funziona()" value="Reset form">Annulla</button>
+          </div>
+       </form>
+      </section>
+      <!-- Qui inizia la sezione degli output -->
+      <section id="risultato">
+        <h2>ECCO IL TUO BIGLIETTO</h2>
+        <div id="nome-utente"></div>
+        <div id="offerta-utente"></div>
+        <div id="carrozza-utente"></div>
+        <div id="codice-utente"></div>
+        <div id="prezzo-utente"></div>
+      </section>
+    </main>
+
+
+
+   <script type="text/javascript" src="main.js"> </script>
+  </body>
+</html>
